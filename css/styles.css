@@ -1,0 +1,125 @@
+
+
+p{
+  font-family: 'a_futuraroundregular';
+  padding: 2% 15% 0%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+#startpage {
+  background-color: #BFA2DB;
+
+}
+
+.startpageheading{
+  font-family: 'Garamond';
+  font-weight: 800;
+  padding-top: 10%;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+.section-titles{
+  font-family: 'Garamond';
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.navbar{
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: 'futura_bkbook';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+    padding: 0px 8px;
+}
+
+.nav-link{
+  font-family: 'futura_bkbook';
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.dl-button {
+  margin: 5% 3% 5% 0;
+}
+
+#about{
+  text-align: center;
+}
+
+#skills{
+  background-color: #F0D9FF;
+}
+
+.progress{
+margin-bottom: 15px;
+height: 25px;
+}
+
+.progress-bar{
+height:25px;
+font-family: 'futura_bkbook';
+font-size: 12px;
+letter-spacing: 3px;
+background-color: #BFA2DB;
+
+}
+
+@media (max-width:1028px) {
+    #startpage {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+}
+
+@font-face {
+    font-family: 'futura_bkbook';
+    src: url('futura_book-webfont.woff2') format('woff2'),
+         url('futura_book-webfont.woff') format('woff'),
+         url('futura_book-webfont.ttf') format('truetype'),
+         url('futura_book-webfont.svg#futura_bkbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'a_futuraroundregular';
+    src: url('futura_round-webfont.woff2') format('woff2'),
+         url('futura_round-webfont.woff') format('woff'),
+         url('futura_round-webfont.ttf') format('truetype'),
+         url('futura_round-webfont.svg#a_futuraroundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futura_thinnormal';
+    src: url('futura_thin-webfont.woff2') format('woff2'),
+         url('futura_thin-webfont.woff') format('woff'),
+         url('futura_thin-webfont.ttf') format('truetype'),
+         url('futura_thin-webfont.svg#futura_thinnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
