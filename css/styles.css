@@ -2,13 +2,14 @@
 
 p{
   font-family: 'a_futuraroundregular';
-  padding: 2% 15% 0%;
+  padding: 2% 15%;
   font-size: 1rem;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 .container-fluid{
-  padding: 7% 15%;
+  padding: 6% 15%;
 }
 
 #startpage {
@@ -16,11 +17,15 @@ p{
 
 }
 
+.startpage-img{
+  width: 100%;
+  border-radius: 100%;
+}
+
 .startpageheading{
   font-family: 'Garamond';
-  font-weight: 800;
   padding-top: 10%;
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 1.5;
   font-weight: 900;
   color: #fff;
@@ -30,7 +35,7 @@ p{
 .section-titles{
   font-family: 'Garamond';
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 4rem;
   letter-spacing: 4px;
   padding-bottom: 2%;
   text-align: center;
@@ -64,6 +69,18 @@ p{
   text-align: center;
 }
 
+.sparkles-img{
+  width: 80px;
+  margin: 0% 3% 15% 15%;
+  position: absolute;
+}
+
+.sparkles1-img{
+  width: 80px;
+  margin: 12% -40%;
+  position: absolute;
+}
+
 #skills{
   background-color: #F0D9FF;
 }
@@ -71,6 +88,7 @@ p{
 .progress{
 margin-bottom: 15px;
 height: 25px;
+background-color: #fff;
 }
 
 .progress-bar{
@@ -82,13 +100,44 @@ background-color: #BFA2DB;
 
 }
 
+#experience{
+    background-color: #F0D9FF;
+}
+
 @media (max-width:1028px) {
     #startpage {
       text-align: center;
       font-size: 1.5rem;
+}
+    .startpage-img{
+      width: 350px;
+      border-radius: 100%;
+      padding-top: 7%;
+    }
+
+    .startpageheading{
+      font-size: 3.5rem;
+    }
+
+    .sparkles-img{
+      width: 80px;
+      margin: 0% 3% 8% 3%;
+      position: absolute;
+    }
+
+    h3{
+      padding-top: 10%;
+      font-size: 14px;
     }
 }
 
+@media (max-width: 600px) {
+  .sparkles1-img{
+    width: 80px;
+    margin: 50% -70%;
+    position: absolute;
+  }
+}
 @font-face {
     font-family: 'futura_bkbook';
     src: url('futura_book-webfont.woff2') format('woff2'),
