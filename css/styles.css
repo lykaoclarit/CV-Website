@@ -104,6 +104,45 @@ background-color: #BFA2DB;
     background-color: #F0D9FF;
 }
 
+.connect{
+  background-color: #BFA2DB;
+  text-align: center;
+}
+
+.author{
+  color: #fff;
+  font-size: 20px;
+
+}
+
+#contacts{
+  background-color: #fff;
+}
+
+.contacts-txt{
+  font-family: 'Garamond';
+  font-weight: 800;
+  font-size: 2.8rem;
+  letter-spacing: 5px;
+  padding-bottom: 2%;
+}
+
+.c-icon{
+  font-size: 2rem;
+  padding: 15px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.button-up{
+  color: #BFA2DB;
+}
+
 @media (max-width:1028px) {
     #startpage {
       text-align: center;
