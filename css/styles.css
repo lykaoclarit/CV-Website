@@ -4,6 +4,13 @@ p{
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 1px;
+  color: #7F7C82;
+}
+
+hr{
+  border-top: 10px dotted white;
+  height: 10%;
+  width: 5%;
 }
 
 .wip{
@@ -44,10 +51,22 @@ p{
   font-family: 'Garamond';
   font-weight: 800;
   font-size: 4rem;
+  color: #7F7C82;
   letter-spacing: 4px;
   padding: 1% 0% 3%;
   text-align: center;
 }
+
+.section-titles1{
+  font-family: 'Garamond';
+  font-weight: 800;
+  font-size: 4rem;
+  color: #7F7C82;
+  letter-spacing: 4px;
+  padding: 1% 0% 3%;
+  text-align: center;
+}
+
 
 .navbar{
   padding-bottom: 3rem;
@@ -64,6 +83,7 @@ p{
 }
 .nav-item{
     padding: 0px 8px;
+
 }
 
 .nav-link{
@@ -71,6 +91,7 @@ p{
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 .dl-button {
@@ -79,6 +100,11 @@ p{
 
 #about{
   text-align: center;
+
+}
+
+.about-txt{
+  color: #7F7C82;
 }
 
 .sparkles-img{
@@ -124,6 +150,10 @@ background-color: #BFA2DB;
   text-align: center;
 }
 
+.card-text{
+  color: #7F7C82;
+}
+
 .xp-column{
     padding: 3% 2%;
 }
@@ -146,7 +176,6 @@ background-color: #BFA2DB;
 .author{
   color: #fff;
   font-size: 20px;
-
 }
 
 #contacts{
@@ -159,16 +188,17 @@ background-color: #BFA2DB;
   font-size: 2.8rem;
   letter-spacing: 5px;
   padding-bottom: 2%;
+  color: #7F7C82;
 }
 
 .c-icon{
   font-size: 2.5rem;
   padding: 15px;
-  color: #7F7C82;
+  color: #BFA2DB;
 }
 
 .c-icon:hover{
-  color: #BFA2DB;
+  color: #7F7C82;
 }
 
 #btn-back-to-top {
