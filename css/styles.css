@@ -185,16 +185,11 @@ background-color: #BFA2DB;
 @media (max-width:1028px) {
     #startpage {
       text-align: center;
-      font-size: 1.5rem;
 }
     .startpage-img{
       width: 350px;
       border-radius: 100%;
       padding-top: 7%;
-    }
-
-    .startpageheading{
-      font-size: 3.5rem;
     }
 
     .sparkles-img{
@@ -205,7 +200,6 @@ background-color: #BFA2DB;
 
     h3{
       padding-top: 10%;
-      font-size: 14px;
     }
 }
 
